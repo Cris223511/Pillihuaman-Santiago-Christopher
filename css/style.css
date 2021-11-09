@@ -10,6 +10,12 @@
     color:#fff;
 }
 
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .col-12{
     width: 100%;
     height: 100%;
@@ -29,6 +35,29 @@
 
 .logos{
     margin-bottom: 70px;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width:991px){
+    table{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    table, th, tr, td,
+    .btn-group a{
+        font-size: 11px;
+    }
+}
+
+@media (max-width:767px){
+    table, th, tr, td,
+    .btn-group a{
+        font-size: 6.7px;
+    }
 }
 
 header{
@@ -530,6 +559,11 @@ p{
     text-align: center;
     font-size: 15px;
     font-family: Handlee, Arial;
+}
+
+#afiliados{
+    background-color: #f9f9f9;
+    color: black;
 }
 
 #particles-js2{
